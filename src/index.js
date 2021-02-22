@@ -19,7 +19,7 @@ const Root = (
       <Route path="/images" component={ImagesGallery} />
       <Route path="/imagesCloud" component={ImagesGalleryCloud} />
       <Route path="/imagesResizer" component={ImagesFileResizer} />
-      <Redirect from="/" to="/results" />
+      <Redirect from="/" to="/imagesCloud" />
     </Switch>
   </BrowserRouter>
 );

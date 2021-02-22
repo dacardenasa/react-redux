@@ -1,6 +1,7 @@
 {
   "name": "react-redux",
   "version": "0.1.0",
+  "homepage": "https://dacardenasa.github.io/react-redux",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.1",
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^12.1.10",
     "cloudinary-react": "^1.6.8",
     "formik": "^2.2.6",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-cloudinary-lazy-image": "^1.3.4",
     "react-dom": "^17.0.1",
@@ -23,6 +25,8 @@
     "yup": "^0.32.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
